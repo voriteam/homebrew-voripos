@@ -2,9 +2,9 @@
 #                https://rubydoc.brew.sh/Formula
 class VoriposTxnSync < Formula
   homepage "https://vori.com"
-  url "https://github.com/voriteam/voripos-txn-sync/archive/refs/tags/0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "eb4a2fbf69dc670d77a6c62c8a5ad93e625900adee1e091455e9d93c31b653a8"
+  url "https://github.com/voriteam/voripos-txn-sync/archive/refs/tags/0.1.1.tar.gz"
+  version "0.1.1"
+  sha256 "ad13d13eb9525ad9d8c5f2ca6a0d71a7d50c36c11a487db29c0654036da5aa1b"
 
   depends_on "benbjohnson/litestream/litestream"
 
