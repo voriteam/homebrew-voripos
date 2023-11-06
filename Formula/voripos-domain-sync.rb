@@ -1,10 +1,10 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 class VoriposDomainSync < Formula
-  version "0.1.2"
+  version "0.2.0"
   homepage "https://vori.com"
-  url "https://github.com/voriteam/voripos-domain-sync/archive/refs/tags/0.1.2.tar.gz"
-  sha256 "11e22ff538d6448dcf2bec683da02ceedbcacdbcd684ffac87719e5915505e4a"
+  url "https://github.com/voriteam/voripos-domain-sync/archive/refs/tags/0.2.0.tar.gz"
+  sha256 "df1bbbce2743430eb9a0d63acd89ba179417f83c3aa9f6c4b808376275caccaf"
 
 
   def install
