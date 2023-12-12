@@ -2,13 +2,12 @@
 #                https://rubydoc.brew.sh/Formula
 class VoriposProvision < Formula
   homepage "https://vori.com"
-  url "https://github.com/voriteam/voripos-provision/archive/refs/tags/0.8.0.tar.gz"
-  version "0.8.0"
-  sha256 "3dc203aebd162032c4f46371e75951ff212845d8e3fae8b9c3766d53e52540ba"
+  url "https://github.com/voriteam/voripos-provision/archive/refs/tags/0.9.0.tar.gz"
+  version "0.9.0"
+  sha256 "17ac4a7a03310e582ff2d127aaaf35a84a06fe65bb33baf60b6458b1eff7ceac"
 
   depends_on "coreutils" # Needed for base64 decoding
   depends_on "jq" # Needed for parsing API responses
-  depends_on "voripos-domain-sync"
   depends_on "voripos-otel-collector"
   depends_on "voripos-txn-sync"
 
