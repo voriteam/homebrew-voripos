@@ -19,5 +19,7 @@ class VoriposOtelCollector < Formula
   service do
     run opt_bin/"voripos-otel-collector.sh"
     keep_alive true
+    log_path opt_prefix/"var/log/voripos-otel-collector.log"
+    error_log_path opt_prefix/"var/log/voripos-otel-collector.err.log"
   end
 end

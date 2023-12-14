@@ -19,5 +19,7 @@ class VoriposTxnSync < Formula
   service do
     run opt_bin/"voripos-txn-sync.sh"
     keep_alive true
+    log_path opt_prefix/"var/log/voripos-txn-sync.log"
+    error_log_path opt_prefix/"var/log/voripos-txn-sync.err.log"
   end
 end
