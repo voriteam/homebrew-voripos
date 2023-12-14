@@ -2,11 +2,12 @@
 #                https://rubydoc.brew.sh/Formula
 class VoriposTxnSync < Formula
   homepage "https://vori.com"
-  url "https://github.com/voriteam/voripos-txn-sync/archive/refs/tags/0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "48ae4b3f3fbcfbe64d348d923a3d075a49d4112005e89cb05234845184fbe059"
+  url "https://github.com/voriteam/voripos-txn-sync/archive/refs/tags/0.3.0.tar.gz"
+  version "0.3.0"
+  sha256 "50e209dd1186b6c3e29bc1ecc028c617c81e2308b44b67dd398cd2318ffd9f85"
 
   depends_on "benbjohnson/litestream/litestream"
+  depends_on "jq" # Needed for parsing API responses
 
   def install
     # Move everything under #{libexec}/
