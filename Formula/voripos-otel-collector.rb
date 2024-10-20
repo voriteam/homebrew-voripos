@@ -2,9 +2,9 @@
 #                https://rubydoc.brew.sh/Formula
 class VoriposOtelCollector < Formula
   homepage "https://vori.com"
-  url "https://github.com/voriteam/voripos-otel-collector/archive/refs/tags/0.5.0.tar.gz"
-  version "0.5.0"
-  sha256 "824aec0d58e8cd734592ef93870234fe535bba56bf10095615d8f731d8966879"
+  url "https://github.com/voriteam/voripos-otel-collector/archive/refs/tags/0.5.1.tar.gz"
+  version "0.5.1"
+  sha256 "a4156f6490a9914e9e6f351c54f2fd722bd2da6a71dc7b83fb6f7b4ca469c5fc"
 
   depends_on "jq" # Needed for parsing API responses
   depends_on "voriteam/voripos/otelcol-contrib"
